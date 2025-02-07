@@ -1,0 +1,20 @@
+{
+  "name": "serverless-app",
+  "version": "0.1.0",
+  "bin": {
+    "serverless-app": "bin/serverless-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.x",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
